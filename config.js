@@ -6,7 +6,7 @@ module.exports = {
   author: 'Lyle Aigbedion',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT || '', // can embed disqus if I sign up.
   pages: {
     home: '/',
     blog: 'blog',

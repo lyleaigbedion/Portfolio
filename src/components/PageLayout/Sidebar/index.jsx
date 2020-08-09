@@ -12,7 +12,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
-  facebook, github, instagram, twitter,
+  facebook, github, instagram, twitter, linkedin,
 } = Config.social;
 
 const DomContent = () => (
@@ -32,6 +32,7 @@ const DomContent = () => (
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
         <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
+        <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>
@@ -39,19 +40,19 @@ const DomContent = () => (
             <FeatherIcon size="19" icon="calendar" />
             {' '}
           </span>
-&nbsp; &nbsp; May 9,1995
+&nbsp; &nbsp; June 3,1995
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="map-pin" /></span>
           {' '}
-&nbsp; &nbsp; Bangalore, India
+&nbsp; &nbsp; Brooklyn, New York
         </li>
         <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
           {' '}
 &nbsp; &nbsp;
           <a
-            href="mailto:&#114;&#111;&#108;&#119;&#105;&#110;&#109;&#111;&#110;&#116;&#101;&#105;&#114;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#121;&#108;&#101;&#46;&#97;&#105;&#103;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
             target="_top"
           >
             <span className={style.emailHider}>@</span>
