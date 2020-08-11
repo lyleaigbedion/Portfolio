@@ -20,7 +20,7 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
-    }    
+    }
   `).then((result) => {
     if (result.errors) return Promise.reject(result.errors);
 
@@ -29,10 +29,11 @@ exports.createPages = ({ actions, graphql }) => {
     /* Post pages */
     allMarkdownRemark.edges.forEach(({ node }) => {
       // Check path prefix of post
-      if (node.frontmatter.path.indexOf(config.pages.blog) !== 0) {
-        // eslint-disable-next-line no-throw-literal
-        throw `Invalid path prefix: ${node.frontmatter.path}`;
-      }
+      // if (node.frontmatter.path.indexOf(config.pages.blog) !== 0
+      // || node.frontmatter.path.indexOf(config.pages.projects) !== 0) {
+      //   // eslint-disable-next-line no-throw-literal
+      //   throw `Invalid path prefix: ${node.frontmatter.path}`;
+      // }
 
       createPage({
         path: node.frontmatter.path,
@@ -43,7 +44,7 @@ exports.createPages = ({ actions, graphql }) => {
         },
       });
     });
-    const regexForIndex = /index\.md$/;
+    const regexForIndex = /index\.md$|project\.md$/; // added regex OR operator "|"
     // Posts in default language, excluded the translated versions
     const defaultPosts = allMarkdownRemark.edges
       .filter(({ node: { fileAbsolutePath } }) => fileAbsolutePath.match(regexForIndex));

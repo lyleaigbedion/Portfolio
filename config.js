@@ -9,6 +9,7 @@ module.exports = {
   disqusScript: process.env.DISQUS_SCRIPT || '', // can embed disqus if I sign up.
   pages: {
     home: '/',
+    projects: 'projects',
     blog: 'blog',
     contact: 'contact',
     resume: 'resume',

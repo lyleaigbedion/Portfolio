@@ -72,7 +72,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       filter: {
         frontmatter: { path: { ne: $postPath } }
-        fileAbsolutePath: { regex: "/index.md$/" }
+        fileAbsolutePath: { regex: "/index.md$|projects.md$/" }
       }
     ) {
       edges {
@@ -95,5 +95,6 @@ export const pageQuery = graphql`
     }
   }
 `;
+
 
 export default Post;

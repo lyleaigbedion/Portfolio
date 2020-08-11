@@ -8,20 +8,20 @@ import SidebarWrapper from '../../components/PageLayout/Sidebar';
 import PostCard from '../../components/PostCard';
 import SEO from '../../components/Seo';
 
-const Blog = ({ data }) => (
+const Projects = ({ data }) => (
   <Layout className="outerPadding">
     <Layout className="container">
       <Header />
       <SEO
-        title="Blog"
+        title="Projects"
         description="I like blogging about various web technologies and other stuff related to
           javascript and other trends like graphql, prisma etc. This blog expresses my views of various technologies
           and scenarios I have come across in realtime."
-        path="blog"
+        path="projects"
       />
       <SidebarWrapper>
         <div className="marginTopTitle">
-          <h1 className="titleSeparate">Blog</h1>
+          <h1 className="titleSeparate">Projects</h1>
         </div>
         <Row gutter={[20, 20]}>
           {
@@ -38,7 +38,7 @@ const Blog = ({ data }) => (
   </Layout>
 );
 
-Blog.propTypes = {
+Projects.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.arrayOf(PropTypes.object.isRequired).isRequired,
@@ -50,7 +50,7 @@ export const query = graphql`
   {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fileAbsolutePath: { regex: "/index.md$/" } }
+      filter: { fileAbsolutePath: { regex: "/project.md$/" } }
     ) {
       edges {
         node {
@@ -74,4 +74,4 @@ export const query = graphql`
   }
 `;
 
-export default Blog;
+export default Projects;
