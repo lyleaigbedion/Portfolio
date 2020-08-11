@@ -23,7 +23,7 @@ module.exports = {
     rss: '#',
     linkedin: 'https://www.linkedin.com/in/lyle-aigbedion/',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/461de37a-02f0-4f99-ac46-c2850cbc873c',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   tags: {
     javascript: {

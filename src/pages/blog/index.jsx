@@ -45,7 +45,7 @@ Blog.propTypes = {
     }).isRequired,
   }).isRequired,
 };
-
+// can generalize the pages with regex or operator |
 export const query = graphql`
   {
     allMarkdownRemark(
