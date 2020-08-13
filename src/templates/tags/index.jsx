@@ -82,13 +82,13 @@ TagPage.propTypes = {
     tag: PropTypes.string.isRequired,
   }).isRequired,
 };
-
+// changed fileAbsolute path from index.md$ to project.md$ I'll implement a blog later.
 export const pageQuery = graphql`
   query($tag: String!) {
     allMarkdownRemark(
       filter: {
         frontmatter: { tags: { in: [$tag] } }
-        fileAbsolutePath: { regex: "/index.md$/" }
+        fileAbsolutePath: { regex: "/project.md$/" }
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
