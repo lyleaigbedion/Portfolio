@@ -14,9 +14,8 @@ const Projects = ({ data }) => (
       <Header />
       <SEO
         title="Projects"
-        description="I like blogging about various web technologies and other stuff related to
-          javascript and other trends like graphql, prisma etc. This blog expresses my views of various technologies
-          and scenarios I have come across in realtime."
+        description="This is a showcase of the work that I've done so far. Having a place to put all my work makes it easier to
+        realize that I have done alot and that I can do even more!"
         path="projects"
       />
       <SidebarWrapper>

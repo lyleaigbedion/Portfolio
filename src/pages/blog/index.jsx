@@ -16,7 +16,7 @@ const Blog = ({ data }) => (
         title="Blog"
         description="I like blogging about various web technologies and other stuff related to
           javascript and other trends like graphql, prisma etc. This blog expresses my views of various technologies
-          and scenarios I have come across in realtime."
+          and scenarios I have come across in realtime. You may find my posts here and a copy on Medium."
         path="blog"
       />
       <SidebarWrapper>

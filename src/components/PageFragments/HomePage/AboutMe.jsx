@@ -6,11 +6,11 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hi I'm Lyle, and for the past year and a half I've been teaching myself JavaScript and how to code. I come for a very family centered home and with it a family outlook a "togetherness" in almost everything done yet I chose programming, computer science, as my dream and major in college. No one in my close family knew about Comp Sci and so the path was lonely. Comp Sci in college proved to be too much for the person I was at the time to handle so I moved over to Digital media with 'light' coding classes, gaming programming with JavaScript, and intro to Web Production with WordPress. I guess I never forgave myself for giving up the comp sci major so I made sure to do the best work I could in these classes and I found a love for programming, just making things or solving a problem. I graduated with my digital media degree and even found an internship working for a non profit organization that deals with tech. Unfortunately, in the almost 2 years there, there was not much in the room to grow and widen my knowledge. I kept sharp or at least tried to by finding resources online and guides. I was introduced to someone from MongoDB now my friend, my mentor, showed me that I had so much more to learn and gave me the courage and drive to stick to it. I was given the link to the FullStack WDF program by my mentor and applied, I knew I needed to work with people in a more structured environment but lacked the funds and so this was an opportunity I wasn't going to pass up.`,
-  paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+  paraOne: `Hi I'm Lyle-Anthony Aigbedion. I am a FullStack Software Engineer with a focus on the backend.
+  I have been self-taught for most of my career but, I recently graduated from FullStack Academy's Web Development Fellowship(WDF), and now in a pursuit of a job. I love technology and programming, solving problems with code faced by me and others.
+  `,
+  paraTwo: `Currently I work mostly with FullStack Javascript; Node, Express, React, Redux, and Databases(Postgres, MongoDB) or, the NERDS stack. I am currently interested in and working with more technologies and I hope youll take a look at some of those projects when they land here!
+  `,
 };
 
 const AboutMe = () => {
@@ -42,10 +42,10 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="coffee.png"
-            alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            img="food.png"
+            alt="food image"
+            textH4="Love to Eat"
+            textH3="Love to Cook"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -58,18 +58,18 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="motorcycle.png"
-            alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Biker for life"
+            img="controller.png"
+            alt="controller image"
+            textH4="Love Gaming"
+            textH3="Playing Since Forever"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="web.png"
             alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
+            textH4="Self Taught, with Some Help"
+            textH3="Thanks to the Internet and FSA!"
             height={60}
             width={60}
           />
@@ -78,8 +78,8 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            textH4="Obtained a BA in"
+            textH3="Emerging Media"
             height={60}
             width={60}
           />
