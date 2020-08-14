@@ -6,12 +6,7 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
-    cool notes on web technologies.`,
+  paraOne: `Hi I'm Lyle, and for the past year and a half I've been teaching myself JavaScript and how to code. I come for a very family centered home and with it a family outlook a "togetherness" in almost everything done yet I chose programming, computer science, as my dream and major in college. No one in my close family knew about Comp Sci and so the path was lonely. Comp Sci in college proved to be too much for the person I was at the time to handle so I moved over to Digital media with 'light' coding classes, gaming programming with JavaScript, and intro to Web Production with WordPress. I guess I never forgave myself for giving up the comp sci major so I made sure to do the best work I could in these classes and I found a love for programming, just making things or solving a problem. I graduated with my digital media degree and even found an internship working for a non profit organization that deals with tech. Unfortunately, in the almost 2 years there, there was not much in the room to grow and widen my knowledge. I kept sharp or at least tried to by finding resources online and guides. I was introduced to someone from MongoDB now my friend, my mentor, showed me that I had so much more to learn and gave me the courage and drive to stick to it. I was given the link to the FullStack WDF program by my mentor and applied, I knew I needed to work with people in a more structured environment but lacked the funds and so this was an opportunity I wasn't going to pass up.`,
   paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
     have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
     keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool

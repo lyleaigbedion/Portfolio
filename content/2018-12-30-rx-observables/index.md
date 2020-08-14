@@ -1,6 +1,6 @@
 ---
 title: What are and how to use Observables in RxJS
-tags: [typescript, javascript, rxjs]
+tags: [typescript, javascript, rxjs, reduxjs, postgresql, d3js, wordpress, sequelizejs, mongodb, expressjs, mongoosejs, tensorflowjs, p5js]
 date: 2018-12-30T05:25:44.226Z
 path: blog/top-7-rxjs-patterns
 cover: ./preview.png

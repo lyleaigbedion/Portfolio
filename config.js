@@ -71,6 +71,56 @@ module.exports = {
       description: 'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
     },
+    reduxjs: {
+      name: 'redux.js',
+      description: 'A predictable state container for JavaScript apps.',
+      color: '#3b0563',
+    },
+    postgresql: {
+      name: 'postgresql',
+      description: 'An open source relational database management system developed by a worldwide team of volunteers.',
+      color: '#306192',
+    },
+    d3js: {
+      name: 'D3js',
+      description: 'A JavaScript library for manipulating documents based on data.',
+      color: '#f79045',
+    },
+    mongodb: {
+      name: 'MongoDB',
+      description: 'A document-oriented NoSQL database used for high volume data storage.',
+      color: '#2f9e3e',
+    },
+    sequelizejs: {
+      name: 'sequelize.js',
+      description: 'A promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.',
+      color: '#2174b6',
+    },
+    mongoosejs: {
+      name: 'mongoose.js',
+      description: 'An Object Data Modeling (ODM) library for MongoDB and Node. js.',
+      color: '#8a0000',
+    },
+    expressjs: {
+      name: 'expressjs',
+      description: 'A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.',
+      color: '#383838',
+    },
+    wordpress: {
+      name: 'WordPress',
+      description: 'A free and open-source content management system ',
+      color: '#444140',
+    },
+    p5js: {
+      name: 'p5js',
+      description: 'A JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else!',
+      color: '#e61e5b',
+    },
+    tensorflowjs: {
+      name: 'Tensorflow.js',
+      description: 'A library for machine learning in JavaScript. Develop ML models in JavaScript, and use ML directly in the browser or in Node. js.',
+      color: '#f78200',
+    },
 
   },
 };
