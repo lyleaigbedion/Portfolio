@@ -121,6 +121,11 @@ module.exports = {
       description: 'A library for machine learning in JavaScript. Develop ML models in JavaScript, and use ML directly in the browser or in Node. js.',
       color: '#f78200',
     },
+    arduino: {
+      name: 'Arduino',
+      description: 'Open-source electronic prototyping platform enabling users to create interactive electronic objects.',
+      color: '#00878f',
+    },
 
   },
 };
