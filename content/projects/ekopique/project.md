@@ -1,13 +1,13 @@
 ---
-title: "GameShopper"
-path: projects/gameshopper
-tags: [javascript, reactjs, reduxjs, postgresql, sequelizejs, css]
-cover: ./gameshopper.png
-date: 2020-06-24
-excerpt: Ecommerce site that sells various board and card games.
+title: "ekoPique"
+path: projects/ekoPique
+tags: [javascript, html,css, reduxjs, reactjs, mongodb, mongoosejs, expressjs]
+cover: ./ekopique.png
+date: 2020-07-24
+excerpt: Data Visualization App Using Spotify's Web API.
 ---
 
-Hello World 🌎 - I would like to talk 🔈 about my self in this article. Let's start this journey together. My name is Rolwin and I'm a full-stack web developer 🕸️. I have been an opensource contributor for a very long time since 2016. Currently I'm a part of Gatsby organization contributing to [gamesshopper.herokuapp.com](https://gamesshopper.herokuapp.com).
+Hello World 🌎 - I would like to talk 🔈 about my self in this article. Let's start this journey together. My name is Rolwin and I'm a full-stack web developer 🕸️. I have been an opensource contributor for a very long time since 2016. Currently I'm a part of Gatsby organization contributing to [Gatsby.js](https://www.gatsbyjs.org/).
 
 The world of `World Wide Web` 🌐 had always fascinated me for a very long time. Ever since my only dream 🙃 was to architect real-time applications that millions of people use in real-time, for instance a 🚗 taxi booking app, a food delivery 🍔 app or some online 💵 payment app. I strongly believe the world of `Web Technology` is going to transform the world in the near future. Currently a lot of  🕸️ web apps that are built behave more like mobile 📱 app and show real-time data. In the near future the web is going to be a huge setup that will link most of the IoT devices together.
 
