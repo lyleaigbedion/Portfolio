@@ -14,9 +14,10 @@ import './highlight-syntax.less';
 import style from './post.module.less';
 
 const Post = ({ data }) => {
+  console.log(data);
   const { html, frontmatter } = data.markdownRemark;
   const {
-    title, cover: { childImageSharp: { fluid } }, excerpt, path,
+    title, cover, excerpt, path,
   } = frontmatter;
 
   const canonicalUrl = Utils.resolvePageUrl(
@@ -24,6 +25,7 @@ const Post = ({ data }) => {
     Config.pathPrefix,
     path,
   );
+  console.log(cover);
   return (
     <Layout className="outerPadding">
       <Layout className="container">
@@ -38,7 +40,17 @@ const Post = ({ data }) => {
           <div className="marginTopTitle">
             <h1>{title}</h1>
             <div className={style.bannerImgContainer}>
-              <Img className={style.bannerImg} fluid={fluid} title={excerpt} alt={title} />
+              {cover.childImageSharp
+                ? (
+                  <Img
+                    className={style.bannerImg}
+                    fluid={cover.childImageSharp ? cover.childImageSharp.fluid : cover.publicURL}
+                    title={excerpt}
+                    alt={title}
+                  />
+                )
+                : <img src={cover.publicURL} className={style.bannerImg} title={excerpt} alt={title} style={{ width: '100%' }} />}
+
             </div>
             <article className={style.blogArticle} dangerouslySetInnerHTML={{ __html: html }} />
             <Comment pageCanonicalUrl={canonicalUrl} pageId={title} />
@@ -61,6 +73,7 @@ export const pageQuery = graphql`
         path
         excerpt
         cover {
+          publicURL
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_tracedSVG
@@ -83,6 +96,7 @@ export const pageQuery = graphql`
             tags
             excerpt
             cover {
+              publicURL
               childImageSharp {
                 fluid(maxWidth: 600) {
                   ...GatsbyImageSharpFluid_tracedSVG

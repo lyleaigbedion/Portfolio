@@ -6,14 +6,13 @@ import Utils from '../../utils/pageUtils';
 
 const PostCard = (props) => {
   const { data: { node: { frontmatter } } } = props;
-
   return (
     <div className={style.postCard}>
       <Link to={Utils.resolvePageUrl(frontmatter.path)}>
         <div
           className={style.postCardImg}
           style={{
-            backgroundImage: `url(${frontmatter ? frontmatter.cover.childImageSharp.fluid.src : ''})`,
+            backgroundImage: `url(${frontmatter && frontmatter.cover.childImageSharp ? frontmatter.cover.childImageSharp.fluid.src : frontmatter.cover.publicURL})`,
           }}
         />
         <div className={style.mrTp20}>

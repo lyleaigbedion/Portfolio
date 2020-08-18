@@ -60,6 +60,7 @@ export const query = graphql`
             tags
             excerpt
             cover {
+              publicURL
               childImageSharp {
                 fluid(maxWidth: 288) {
                   ...GatsbyImageSharpFluid_tracedSVG

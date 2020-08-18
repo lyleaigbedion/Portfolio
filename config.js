@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '',
   siteUrl: 'https://rolwinreevan.com',
   siteTitle: 'Lyle Aigbedion',
-  siteDescription: 'Portfolio of a software developer',
+  siteDescription: 'Portfolio of a software engineer',
   author: 'Lyle Aigbedion',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
