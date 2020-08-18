@@ -74,7 +74,7 @@ const Resume = () => (
               <p className="p4 ft11">
                 <span className="ft11">●</span>
                 <span className="ft14">Exposure: </span>
-                C/C++, Python, Socket.io, MySQL, PHP
+                C/C++, Python, Socket.io, MySQL, PHP, GraphQL, Gatsby.js
               </p>
               <p className="p5 ft16">
                 <span className="ft11">●</span>
