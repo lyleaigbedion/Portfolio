@@ -44,7 +44,7 @@ exports.createPages = ({ actions, graphql }) => {
         },
       });
     });
-    const regexForIndex = /index\.md$|project\.md$/; // added regex OR operator "|"
+    const regexForIndex = /index\.md$|project\.md$|tagdontbreak\.md$/; // added regex OR operator "|"
     // Posts in default language, excluded the translated versions
     const defaultPosts = allMarkdownRemark.edges
       .filter(({ node: { fileAbsolutePath } }) => fileAbsolutePath.match(regexForIndex));

@@ -41,7 +41,8 @@ const Tags = ({ data }) => {
                 edges.map((val) => (
                   <Col key={val.node.name} xs={24} sm={24} md={12} lg={8}>
                     <TagCard
-                      img={val.node.childImageSharp.fluid.src}
+                      // eslint-disable-next-line max-len
+                      img={val.node.childImageSharp.fluid.src ? val.node.childImageSharp.fluid.src : val.node.publicURL}
                       name={val.node.name}
                       description={tagData[val.node.name].description}
                       color={tagData[val.node.name].color}
@@ -87,7 +88,7 @@ Tags.propTypes = {
 
 export const query = graphql`
   {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/index.md$/" } }) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/index.md$|projects.md$/" } }) {
       edges {
         node {
           frontmatter {
@@ -100,6 +101,7 @@ export const query = graphql`
       edges {
         node {
           name
+          publicURL
           childImageSharp {
             fluid(maxWidth: 400) {
               ...GatsbyImageSharpFluid_tracedSVG

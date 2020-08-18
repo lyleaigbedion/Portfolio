@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
+  siteUrl: 'https://lyleaigbedion.com',
   siteTitle: 'Lyle Aigbedion',
   siteDescription: 'Portfolio of a software engineer',
   author: 'Lyle Aigbedion',

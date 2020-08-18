@@ -14,7 +14,6 @@ import './highlight-syntax.less';
 import style from './post.module.less';
 
 const Post = ({ data }) => {
-  console.log(data);
   const { html, frontmatter } = data.markdownRemark;
   const {
     title, cover, excerpt, path,
@@ -25,7 +24,6 @@ const Post = ({ data }) => {
     Config.pathPrefix,
     path,
   );
-  console.log(cover);
   return (
     <Layout className="outerPadding">
       <Layout className="container">

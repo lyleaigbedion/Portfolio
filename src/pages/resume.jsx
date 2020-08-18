@@ -68,6 +68,7 @@ const Resume = () => (
               <p className="p3 ft13">
                 <span className="ft11">●</span>
                 <span className="ft12">Proficient: </span>
+                {/* eslint-disable-next-line max-len */}
                 JavaScript ES6, Node.js, Express.js, React.js, Redux.js, PostgreSQL, Sequelize.js, MongoDB,Mongoose.js, Git, GitHub, HTML5, CSS3, Wordpress, p5.js, API Integration, Arduino IDE, Adobe CS
               </p>
               <p className="p4 ft11">
@@ -78,6 +79,7 @@ const Resume = () => (
               <p className="p5 ft16">
                 <span className="ft11">●</span>
                 <span className="ft15">Coursework: </span>
+                {/* eslint-disable-next-line max-len */}
                 Creative Problem Solving, Digital Design and Usability, Programing for Everyone, Sofware Analysis and Design I &amp; Lab, Web Production I &amp; II, Web Design Projects
               </p>
               <hr />
@@ -194,7 +196,7 @@ const Resume = () => (
               </p>
               <p className="p7 ft11">
                 <span className="ft11">●</span>
-                <span className="ft19">Designed multiple icons to match the company's style to accommodate missing icons on the map.</span>
+                <span className="ft19">Designed multiple icons to match the company&apos;s style to accommodate missing icons on the map.</span>
               </p>
               <table className="t4" cellSpacing={0} cellPadding={0}>
                 <tbody>
@@ -223,7 +225,7 @@ const Resume = () => (
               </p>
               <p className="p13 ft21">
                 <span className="ft11">●</span>
-                <span className="ft29">Integrated p5.serialport and p5.sound.js APIs to collect the Arduino's control stick input data for character movement and to play sound efects and tracks, respectively.</span>
+                <span className="ft29">Integrated p5.serialport and p5.sound.js APIs to collect the Arduino&apos;s control stick input data for character movement and to play sound efects and tracks, respectively.</span>
               </p>
               <hr />
               <table className="t5" cellSpacing={0} cellPadding={0}>

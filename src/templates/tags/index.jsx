@@ -88,7 +88,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       filter: {
         frontmatter: { tags: { in: [$tag] } }
-        fileAbsolutePath: { regex: "/project.md$/" }
+        fileAbsolutePath: { regex: "/project.md$|index.md$/" }
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
@@ -101,6 +101,7 @@ export const pageQuery = graphql`
             tags
             excerpt
             cover {
+              publicURL
               childImageSharp {
                 fluid(maxWidth: 600) {
                   ...GatsbyImageSharpFluid_tracedSVG
@@ -115,6 +116,7 @@ export const pageQuery = graphql`
       edges {
         node {
           name
+          publicURL
           childImageSharp {
             fluid(maxHeight: 600) {
               ...GatsbyImageSharpFluid_tracedSVG
