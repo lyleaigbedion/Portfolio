@@ -12,6 +12,7 @@ import Config from '../../../../config';
 
 const { Content } = Layout;
 const {
+  // eslint-disable-next-line no-unused-vars
   facebook, github, instagram, twitter, linkedin,
 } = Config.social;
 

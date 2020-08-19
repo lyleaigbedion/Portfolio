@@ -3,6 +3,7 @@ import { Layout } from 'antd';
 import SEO from '../components/Seo';
 import Header from '../components/PageLayout/Header';
 
+
 import SidebarWrapper from '../components/PageLayout/Sidebar';
 
 
@@ -33,10 +34,8 @@ const Resume = () => (
               <div id="id1_1_2">
                 <p className="p0 ft3">
                   Brooklyn, New York
-                  <span className="ft2">• </span>
+                  <span className="ft2" style={{ visibility: 'hidden' }}>• </span>
                   347.465.8854
-                  <span className="ft2">• </span>
-                  lyle.aig@gmail.com
                 </p>
               </div>
             </div>
