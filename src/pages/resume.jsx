@@ -69,7 +69,7 @@ const Resume = () => (
                 <span className="ft11">●</span>
                 <span className="ft12">Proficient: </span>
                 {/* eslint-disable-next-line max-len */}
-                JavaScript ES6, Node.js, Express.js, React.js, Redux.js, PostgreSQL, Sequelize.js, MongoDB,Mongoose.js, Git, GitHub, HTML5, CSS3, Wordpress, p5.js, API Integration, Arduino IDE, Adobe CS
+                JavaScript ES6, Node.js, Express.js, React.js, Redux.js, PostgreSQL, Sequelize.js, MongoDB, Mongoose.js, Git, GitHub, HTML5, CSS3, Wordpress, p5.js, API Integration, Arduino IDE, Adobe CS
               </p>
               <p className="p4 ft11">
                 <span className="ft11">●</span>
@@ -112,7 +112,7 @@ const Resume = () => (
               </p>
               <p className="p6 ft16">
                 <span className="ft11">●</span>
-                <span className="ft19">Adhering to responsive Web Design using correct CSS declarations and values to create </span>
+                <span className="ft19">Adhering to responsive Web Design using correct CSS declarations and values to create. </span>
                 <nobr>mobile-friendly</nobr>
                 {' '}
                 sites.
@@ -127,15 +127,15 @@ const Resume = () => (
               </table>
               <p className="p4 ft11">
                 <span className="ft11">●</span>
-                <span className="ft19">Logged guests and visitors with Public Safety oficers serving more than</span>
+                <span className="ft19">Logged guests and visitors with Public Safety oficers serving more than 100 vistors per day. </span>
               </p>
               <p className="p6 ft16">
                 <span className="ft11">●</span>
-                <span className="ft19">Intermediary for supervisors and the IT department to address any and all issues with the front desk computer</span>
+                <span className="ft19">Intermediary for supervisors and the IT department to address any and all issues with the front desk computer.</span>
               </p>
               <p className="p8 ft21">
                 <span className="ft3">●</span>
-                <span className="ft20">Recommended and attended meetings with upper management and coworkers to address issues, create actionable tasks to resolve them, and update information as to how to proceed</span>
+                <span className="ft20">Recommended and attended meetings with upper management and coworkers to address issues, create actionable tasks to resolve them, and update information as to how to proceed.</span>
               </p>
               <p className="p1 ft31">&nbsp;</p>
               <p className="p1 ft32">&nbsp;</p>

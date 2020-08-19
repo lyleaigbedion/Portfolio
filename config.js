@@ -126,6 +126,16 @@ module.exports = {
       description: 'Open-source electronic prototyping platform enabling users to create interactive electronic objects.',
       color: '#00878f',
     },
+    ml5js: {
+      name: 'ml5js',
+      description: 'Aims to make machine learning approachable for a broad audience of artists, creative coders, and students.',
+      color: '#9d53f7',
+    },
+    bulma: {
+      name: 'bulma',
+      description: 'A free, open source CSS framework based on Flexbox and used by more than 200,000 developers.',
+      color: '#00caac',
+    },
 
   },
 };

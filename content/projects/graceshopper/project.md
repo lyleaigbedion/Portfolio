@@ -1,7 +1,7 @@
 ---
 title: "GameShopper"
 path: projects/gameshopper
-tags: [javascript, reactjs, reduxjs, postgresql, sequelizejs, css, expressjs]
+tags: [javascript, reactjs, reduxjs, postgresql, sequelizejs, css]
 cover: ./gameshopper.png
 date: 2020-06-24
 excerpt: Ecommerce site that sells various board and card games.

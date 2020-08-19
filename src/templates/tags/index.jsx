@@ -88,7 +88,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       filter: {
         frontmatter: { tags: { in: [$tag] } }
-        fileAbsolutePath: { regex: "/project.md$|index.md$/" }
+        fileAbsolutePath: { regex: "/project.md$/" }
       }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {

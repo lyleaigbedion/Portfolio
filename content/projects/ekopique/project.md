@@ -1,7 +1,7 @@
 ---
 title: "ekoPique"
 path: projects/ekoPique
-tags: [javascript, html,css, reduxjs, reactjs, mongodb, mongoosejs, expressjs]
+tags: [javascript, html,css, reduxjs, reactjs, mongodb, mongoosejs, expressjs, d3js, bulma]
 cover: ./ekopique.png
 date: 2020-07-24
 excerpt: Data Visualization App Using Spotify's Web API.
