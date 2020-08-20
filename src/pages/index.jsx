@@ -14,6 +14,7 @@ export default () => (
         <>
           <AboutMe />
           {/* <Skills /> */}
+          <div style={{ paddingBottom: '15%' }} />
         </>
       </SidebarWrapper>
     </Layout>
