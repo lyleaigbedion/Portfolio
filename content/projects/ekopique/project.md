@@ -7,8 +7,16 @@ date: 2020-07-24
 excerpt: Data Visualization App Using Spotify's Web API.
 ---
 
-Hello World 🌎 - I would like to talk 🔈 about my self in this article. Let's start this journey together. My name is Rolwin and I'm a full-stack web developer 🕸️. I have been an opensource contributor for a very long time since 2016. Currently I'm a part of Gatsby organization contributing to [Gatsby.js](https://www.gatsbyjs.org/).
+Hi all! This is [ekoPique](https://ekopique.herokuapp.com/), a data visualization app using Spotify's web api and the highlight of my bootcamp experience. This project was the hard work of Ube Halaya, Osainu Jabbi, and myself with guidance from Manny Garcia and Natlie Lane. This was completed over the course of 2 and half weeks.
 
-The world of `World Wide Web` 🌐 had always fascinated me for a very long time. Ever since my only dream 🙃 was to architect real-time applications that millions of people use in real-time, for instance a 🚗 taxi booking app, a food delivery 🍔 app or some online 💵 payment app. I strongly believe the world of `Web Technology` is going to transform the world in the near future. Currently a lot of  🕸️ web apps that are built behave more like mobile 📱 app and show real-time data. In the near future the web is going to be a huge setup that will link most of the IoT devices together.
+We started our project with the question "Well, what do we want to do?". We spent most of the day coming up with ideas, getting a feel for each other's interests and personalities. We finally decided on data vizualization. Data Viz was now the goal but what we wanted to vizualize was yet another question . At first it was COVID-19, we quickly realized *As soon as it was said* that the topic was too heavy to engage with on a day to day basis. We want light hearted fun, something users could find to distract themselves even for a moment. Ube recommended Spotify Wrapped, an end of year thing Spotify does to expose users of their unfaltering love of Talyor Swift 👀. So with this idea we decided we'd begin our using Spotify as our data source.
 
-In my early teens 👦🏻 I was not a good coder 👨🏽‍💻 as such. I could hardly write a `C Program` and could not even understand many use-cases 😷 of these programs. Probably because I was not much of a book worm 🐛. Things changed in the year 2015 and my fascination towards programming increased and in the year 2016 I started programming the `Web`. Today I'm a full-stack web developer 👨🏽‍💻 working with multiple technologies. Currently I work with mostly `Javascript` tech stacks like `ReactJS` and `NodeJS`. I'm open to discussions on various Javascript technologies. I will try to update my blog as much as possible so that many of you can get an idea of the latest trends in technologies.
+We were going to need a FullStack Application to vizualze our goal:
+  - A Database to store users and data.
+  - A Server Framework to handle user requests and Spotify API calls.
+  - Make it a Single Page Application (SPA).
+  - Have a state manager.
+  - Have a data vizualizing library to create graphs.
+
+
+It doesn't look like much but the work and effort was immense!
