@@ -20,8 +20,7 @@ const Resume = () => (
         <div style={{ width: '100%' }}>
           <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
           <title>Lyle-Anthony.Aigbedion</title>
-          <meta name="generator" content="BCL easyConverter SDK 5.0.210" />
-          <style type="text/css" dangerouslySetInnerHTML={{ __html: "\n\n  body {margin-top: 0px;margin-left: 0px;}\n\n  #page_1 {position:relative; overflow: hidden;margin: 07.03% 0px 1.56% 6.25%;padding: 0px;border: none;width: 100%;}\n  #page_1 #id1_1 {border:none;margin: 0px 0px 0px 0.91%;padding: 0px;border:none;width: 99%;overflow: hidden;}\n  #page_1 #id1_1 #id1_1_1 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 48.8%;overflow: hidden;}\n  #page_1 #id1_1 #id1_1_2 {float:left;border:none;margin: 2.08% 0px 0px 0px;padding: 0px;border:none;width: 50.26%;overflow: hidden;}\n  #page_1 #id1_2 {border:none;margin: 3.39% 0px 0px 0px;padding: 0px;border:none;width: 100%;overflow: hidden;}\n  #page_1 #id1_3 {border:none;margin: 5.20% 0px 0px 29.16%;padding: 0px;border:none;width: 70.83%;overflow: hidden;}\n\n    hr{\n      border: none;\n    height: 1px;\n    margin-right: 5%;\n    color: #333; /* old IE */\n    background-color: #333; /* Modern Browsers */    }\n\n\n  .ft0{font: bold 32px 'Arial';color: #434343;line-height: 37px;}\n  .ft1{font: 32px 'Arial';color: #434343;line-height: 36px;}\n  .ft2{font: 15px 'Arial';color: #222222;line-height: 17px;}\n  .ft3{font: 13px 'Arial';color: #434343;line-height: 16px;}\n  .ft4{font: bold 13px 'Arial';color: #434343;line-height: 16px;}\n  .ft5{font: 13px 'Arial';text-decoration: underline;color: #1155cc;line-height: 16px;}\n  .ft6{font: 13px 'Arial';color: #1155cc;line-height: 16px;}\n  .ft7{font: bold 12px 'Arial';color: #434343;line-height: 15px;}\n  .ft8{font: 12px 'Arial';text-decoration: underline;color: #1155cc;line-height: 15px;}\n  .ft9{font: 12px 'Arial';color: #1155cc;line-height: 15px;}\n  .ft10{font: bold 15px 'Arial';color: #434343;line-height: 18px;}\n  .ft11{font: 15px 'Arial';color: #434343;line-height: 17px;}\n  .ft12{font: bold 13px 'Arial';color: #434343;margin-left: 15px;line-height: 18px;}\n  .ft13{font: 13px 'Arial';color: #434343;line-height: 18px;}\n  .ft14{font: bold 15px 'Arial';color: #434343;margin-left: 15px;line-height: 18px;}\n  .ft15{font: bold 15px 'Arial';color: #434343;margin-left: 15px;line-height: 19px;}\n  .ft16{font: 15px 'Arial';color: #434343;line-height: 18px;}\n  .ft17{font: 1px 'Arial';line-height: 1px;}\n  .ft18{font: 15px 'Arial';color: #434343;margin-left: 15px;line-height: 18px;}\n  .ft19{font: 15px 'Arial';color: #434343;margin-left: 15px;line-height: 17px;}\n  .ft20{font: 15px 'Arial';color: #434343;margin-left: 16px;line-height: 19px;}\n  .ft21{font: 15px 'Arial';color: #434343;line-height: 19px;}\n  .ft22{font: bold 15px 'Arial';text-decoration: underline;color: #1155cc;line-height: 18px;}\n  .ft23{font: italic bold 15px 'Arial';color: #434343;line-height: 17px;}\n  .ft24{font: 1px 'Arial';line-height: 17px;}\n  .ft25{font: bold 15px 'Arial';color: #1155cc;line-height: 18px;}\n  .ft26{font: italic bold 13px 'Arial';color: #434343;line-height: 16px;}\n  .ft27{font: 13px 'Arial';color: #434343;margin-left: 15px;line-height: 17px;}\n  .ft28{font: 13px 'Arial';color: #434343;line-height: 17px;}\n  .ft29{font: 15px 'Arial';color: #434343;margin-left: 15px;line-height: 19px;}\n  .ft30{font: 12px 'Arial';color: #434343;line-height: 15px;}\n  .ft31{font: 1px 'Arial';line-height: 5px;}\n  .ft32{font: 1px 'Arial';line-height: 4px;}\n  .ft33{font: 8px 'Calibri';line-height: 10px;}\n\n  .p0{text-align: left;margin-top: 0px;margin-bottom: 0px;}\n  .p1{text-align: left;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}\n  .p2{text-align: left;margin-top: 14px;margin-bottom: 0px;}\n  .p3{text-align: left;padding-left: 48px;padding-right: 67px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p4{text-align: left;padding-left: 24px;margin-top: 0px;margin-bottom: 0px;}\n  .p5{text-align: left;padding-left: 48px;padding-right: 88px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p6{text-align: left;padding-left: 48px;padding-right: 55px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p7{text-align: left;padding-left: 24px;margin-top: 1px;margin-bottom: 0px;}\n  .p8{text-align: left;padding-left: 48px;padding-right: 85px;margin-top: 2px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p9{text-align: left;margin-top: 7px;margin-bottom: 0px;}\n  .p10{text-align: right;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}\n  .p11{text-align: left;padding-left: 48px;padding-right: 115px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p12{text-align: left;padding-left: 48px;padding-right: 71px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p13{text-align: left;padding-left: 48px;padding-right: 78px;margin-top: 2px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p14{text-align: right;padding-right: 1px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}\n\n  .td0{padding: 0px;margin: 0px;width: 43.489%;vertical-align: bottom;}\n  .td1{padding: 0px;margin: 0px;width: 25%;vertical-align: bottom;}\n  .td2{padding: 0px;margin: 0px;width: 76.302%;vertical-align: bottom;}\n  .td3{padding: 0px;margin: 0px;width: 17.447%;vertical-align: bottom;}\n  .td4{padding: 0px;margin: 0px;width: 73.828%;vertical-align: bottom;}\n  .td5{padding: 0px;margin: 0px;width: 19.921%;vertical-align: bottom;}\n  .td6{padding: 0px;margin: 0px;width: 77.343%;vertical-align: bottom;}\n  .td7{padding: 0px;margin: 0px;width: 16.406%;vertical-align: bottom;}\n  .td8{padding: 0px;margin: 0px;width: 85.677%;vertical-align: bottom;}\n  .td9{padding: 0px;margin: 0px;width: 8.073%;vertical-align: bottom;}\n  .td10{padding: 0px;margin: 0px;width: 77.224%;vertical-align: bottom;}\n  .td11{padding: 0px;margin: 0px;width: 22.005%;vertical-align: bottom;}\n  .td12{padding: 0px;margin: 0px;width: 0.520%;vertical-align: bottom;}\n  .td13{padding: 0px;margin: 0px;width: 22.526%;vertical-align: bottom;}\n  .td14{border-bottom: #888888 1px solid;padding: 0px;margin: 0px;width: 71.614%;vertical-align: bottom;}\n  .td15{border-bottom: #888888 1px solid;padding: 0px;margin: 0px;width: 100vh;vertical-align: bottom;}\n\n  .tr0{height: 18px;}\n  .tr1{height: 23px;}\n  .tr2{height: 21px;}\n  .tr3{height: 17px;}\n  .tr4{height: 24px;}\n  .tr5{height: 19px;}\n  .tr6{height: 5px;}\n  .tr7{height: 4px;}\n  .tr8{height: 20px;}\n\n  .t0{width: 68.489%;margin-left: 88px;font: bold 12px 'Arial';color: #434343;}\n  .t1{width: 93.75%;margin-top: 4px;font: 13px 'Arial';color: #434343;}\n  .t2{width: 93.75%;margin-top: 12px;font: 13px 'Arial';color: #434343;}\n  .t3{width: 93.75%;font: bold 15px 'Arial';color: #434343;}\n  .t4{width: 93.75%;margin-top: 7px;font: 13px 'Arial';color: #434343;}\n  .t5{width: 93.75%;margin-top: 4px;font: bold 15px 'Arial';color: #434343;}\n\n  " }} />
+          <style type="text/css" dangerouslySetInnerHTML={{ __html: "\n\n  body {margin-top: 0px;margin-left: 0px;}\n\n  #page_1 {position:relative; overflow: hidden;margin: 07.03% 0px 1.56% 6.25%;padding: 0px;border: none;width: 100%;}\n  #page_1 #id1_1 {border:none;margin: 0px 0px 0px 0.91%;padding: 0px;border:none;width: 99%;overflow: hidden;}\n  #page_1 #id1_1 #id1_1_1 {float:left;border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 48.8%;overflow: hidden;}\n  #page_1 #id1_1 #id1_1_2 {float:left;border:none;margin: 2.08% 0px 0px 0px;padding: 0px;border:none;width: 50.26%;overflow: hidden;}\n  #page_1 #id1_2 {border:none;margin: 3.39% 0px 0px 0px;padding: 0px;border:none;width: 100%;overflow: hidden;}\n  #page_1 #id1_3 {border:none;margin: 5.20% 0px 0px 29.16%;padding: 0px;border:none;width: 70.83%;overflow: hidden;}\n\n    hr{\n      border: none;\n    height: 1px;\n    margin-right: 5%;\n    color: #333; /* old IE */\n    background-color: #333; /* Modern Browsers */    }\n\n\n  .ft0{font: bold 32px 'Arial';color: #434343;line-height: 37px;}\n  .ft1{font: 32px 'Arial';color: #434343;line-height: 36px;}\n  .ft2{font: 15px 'Arial';color: #222222;line-height: 17px;}\n  .ft3{font: 15px 'Arial';color: #434343;line-height: 16px;}\n  .ft4{font: bold 13px 'Arial';color: #434343;line-height: 16px;}\n  .ft5{font: 13px 'Arial';text-decoration: underline;color: #1155cc;line-height: 16px;}\n  .ft6{font: 13px 'Arial';color: #1155cc;line-height: 16px;}\n  .ft7{font: bold 12px 'Arial';color: #434343;line-height: 15px;}\n  .ft8{font: 12px 'Arial';text-decoration: underline;color: #1155cc;line-height: 15px;}\n  .ft9{font: 12px 'Arial';color: #1155cc;line-height: 15px;}\n  .ft10{font: bold 15px 'Arial';color: #434343;line-height: 18px;}\n  .ft11{font: 15px 'Arial';color: #434343;line-height: 17px;}\n  .ft12{font: bold 15px 'Arial';color: #434343;margin-left: 15px;line-height: 18px;}\n  .ft13{font: 15px 'Arial';color: #434343;line-height: 18px;}\n  .ft14{font: bold 15px 'Arial';color: #434343;margin-left: 15px;line-height: 18px;}\n  .ft15{font: bold 15px 'Arial';color: #434343;margin-left: 15px;line-height: 19px;}\n  .ft16{font: 15px 'Arial';color: #434343;line-height: 18px;}\n  .ft17{font: 1px 'Arial';line-height: 1px;}\n  .ft18{font: 15px 'Arial';color: #434343;margin-left: 15px;line-height: 18px;}\n  .ft19{font: 15px 'Arial';color: #434343;margin-left: 15px;line-height: 17px;}\n  .ft20{font: 15px 'Arial';color: #434343;margin-left: 16px;line-height: 19px;}\n  .ft21{font: 15px 'Arial';color: #434343;line-height: 19px;}\n  .ft22{font: bold 15px 'Arial';text-decoration: underline;color: #1155cc;line-height: 18px;}\n  .ft23{font: italic bold 13px 'Arial';color: #434343;line-height: 17px;}\n  .ft24{font: 1px 'Arial';line-height: 17px;}\n  .ft25{font: bold 15px 'Arial';color: #1155cc;line-height: 18px;}\n  .ft26{font: italic bold 13px 'Arial';color: #434343;line-height: 16px;}\n  .ft27{font: 15px 'Arial';color: #434343;margin-left: 15px;line-height: 17px;}\n  .ft28{font: 15px 'Arial';color: #434343;line-height: 17px;}\n  .ft29{font: 15px 'Arial';color: #434343;margin-left: 15px;line-height: 19px;}\n  .ft30{font: 12px 'Arial';color: #434343;line-height: 15px;}\n  .ft31{font: 1px 'Arial';line-height: 5px;}\n  .ft32{font: 1px 'Arial';line-height: 4px;}\n  .ft33{font: 8px 'Calibri';line-height: 10px;}\n\n  .p0{text-align: left;margin-top: 0px;margin-bottom: 0px;}\n  .p1{text-align: left;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}\n  .p2{text-align: left;margin-top: 14px;margin-bottom: 0px;}\n  .p3{text-align: left;padding-left: 48px;padding-right: 67px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p4{text-align: left;padding-left: 24px;margin-top: 0px;margin-bottom: 0px;}\n  .p5{text-align: left;padding-left: 48px;padding-right: 88px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p6{text-align: left;padding-left: 48px;padding-right: 55px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p7{text-align: left;padding-left: 24px;margin-top: 1px;margin-bottom: 0px;}\n  .p8{text-align: left;padding-left: 48px;padding-right: 85px;margin-top: 2px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p9{text-align: left;margin-top: 7px;margin-bottom: 0px;}\n  .p10{text-align: right;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}\n  .p11{text-align: left;padding-left: 48px;padding-right: 115px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p12{text-align: left;padding-left: 48px;padding-right: 71px;margin-top: 0px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p13{text-align: left;padding-left: 48px;padding-right: 78px;margin-top: 2px;margin-bottom: 0px;text-indent: -3.125%;}\n  .p14{text-align: right;padding-right: 1px;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}\n\n  .td0{padding: 0px;margin: 0px;width: 43.489%;vertical-align: bottom;}\n  .td1{padding: 0px;margin: 0px;width: 25%;vertical-align: bottom;}\n  .td2{padding: 0px;margin: 0px;width: 76.302%;vertical-align: bottom;}\n  .td3{padding: 0px;margin: 0px;width: 17.447%;vertical-align: bottom;}\n  .td4{padding: 0px;margin: 0px;width: 73.828%;vertical-align: bottom;}\n  .td5{padding: 0px;margin: 0px;width: 19.921%;vertical-align: bottom;}\n  .td6{padding: 0px;margin: 0px;width: 77.343%;vertical-align: bottom;}\n  .td7{padding: 0px;margin: 0px;width: 16.406%;vertical-align: bottom;}\n  .td8{padding: 0px;margin: 0px;width: 85.677%;vertical-align: bottom;}\n  .td9{padding: 0px;margin: 0px;width: 8.073%;vertical-align: bottom;}\n  .td10{padding: 0px;margin: 0px;width: 77.224%;vertical-align: bottom;}\n  .td11{padding: 0px;margin: 0px;width: 22.005%;vertical-align: bottom;}\n  .td12{padding: 0px;margin: 0px;width: 0.520%;vertical-align: bottom;}\n  .td13{padding: 0px;margin: 0px;width: 22.526%;vertical-align: bottom;}\n  .td14{border-bottom: #888888 1px solid;padding: 0px;margin: 0px;width: 71.614%;vertical-align: bottom;}\n  .td15{border-bottom: #888888 1px solid;padding: 0px;margin: 0px;width: 100vh;vertical-align: bottom;}\n\n  .tr0{height: 18px;}\n  .tr1{height: 23px;}\n  .tr2{height: 21px;}\n  .tr3{height: 17px;}\n  .tr4{height: 24px;}\n  .tr5{height: 19px;}\n  .tr6{height: 5px;}\n  .tr7{height: 4px;}\n  .tr8{height: 20px;}\n\n  .t0{width: 68.489%;margin-left: 88px;font: bold 12px 'Arial';color: #434343;}\n  .t1{width: 93.75%;margin-top: 4px;font: 13px 'Arial';color: #434343;}\n  .t2{width: 93.75%;margin-top: 12px;font: 13px 'Arial';color: #434343;}\n  .t3{width: 93.75%;font: bold 15px 'Arial';color: #434343;}\n  .t4{width: 93.75%;margin-top: 7px;font: 13px 'Arial';color: #434343;}\n  .t5{width: 93.75%;margin-top: 4px;font: bold 15px 'Arial';color: #434343;}\n\n  " }} />
           <div id="page_1">
             <div id="id1_1">
               <div id="id1_1_1">
@@ -34,8 +33,12 @@ const Resume = () => (
               <div id="id1_1_2">
                 <p className="p0 ft3">
                   Brooklyn, New York
-                  <span className="ft2" style={{ visibility: 'hidden' }}>• </span>
+                  {' '}
+                  <span className="ft2">• </span>
                   347.465.8854
+                  {' '}
+                  <span className="ft2">• </span>
+                  lyle.aig@gmail.com
                 </p>
               </div>
             </div>
@@ -73,7 +76,8 @@ const Resume = () => (
               <p className="p4 ft11">
                 <span className="ft11">●</span>
                 <span className="ft14">Exposure: </span>
-                C/C++, Python, Socket.io, MySQL, PHP, GraphQL, Gatsby.js
+                {/* eslint-disable-next-line max-len */}
+                C/C++, Python, Socket.io, MySQL, PHP, Gatsby.js, GraphQL, Travis CI, Travis CLI, CD/CI
               </p>
               <p className="p5 ft16">
                 <span className="ft11">●</span>
@@ -93,6 +97,7 @@ const Resume = () => (
                     <td className="tr0 td3">
                       <p className="p1 ft3">
                         May 2018
+                        {' '}
                         <nobr>-March</nobr>
                         {' '}
                         2020
@@ -111,7 +116,7 @@ const Resume = () => (
               </p>
               <p className="p6 ft16">
                 <span className="ft11">●</span>
-                <span className="ft19">Adhering to responsive Web Design using correct CSS declarations and values to create. </span>
+                <span className="ft19">Adhering to responsive Web Design using correct CSS declarations and values to create </span>
                 <nobr>mobile-friendly</nobr>
                 {' '}
                 sites.
@@ -126,15 +131,15 @@ const Resume = () => (
               </table>
               <p className="p4 ft11">
                 <span className="ft11">●</span>
-                <span className="ft19">Logged guests and visitors with Public Safety oficers serving more than 100 vistors per day. </span>
+                <span className="ft19">Logged guests and visitors with Public Safety oficers serving more than 100 visitors a day.</span>
               </p>
               <p className="p6 ft16">
                 <span className="ft11">●</span>
-                <span className="ft19">Intermediary for supervisors and the IT department to address any and all issues with the front desk computer.</span>
+                <span className="ft19">Intermediary for supervisors and the IT department to address any and all issues with the front desk computer</span>
               </p>
               <p className="p8 ft21">
                 <span className="ft3">●</span>
-                <span className="ft20">Recommended and attended meetings with upper management and coworkers to address issues, create actionable tasks to resolve them, and update information as to how to proceed.</span>
+                <span className="ft20">Recommended and attended meetings with upper management and coworkers to address issues, create actionable tasks to resolve them, and update information as to how to proceed</span>
               </p>
               <p className="p1 ft31">&nbsp;</p>
               <p className="p1 ft32">&nbsp;</p>
@@ -142,12 +147,24 @@ const Resume = () => (
               <p className="p1 ft31">&nbsp;</p>
               <hr />
               <p className="p9 ft10">PROJECTS</p>
-              <p className="p0 ft10">
-                ekoPique | Developer | live |
-                <a href="https://ekopique.herokuapp.com"><span className="ft22">ekoPique.herokuapp.com</span></a>
-                <span style={{ paddingLeft: '303px' }}><span className="p10 ft3">2020</span></span>
-              </p>
-              <p className="p0 ft23">A Data Visualization Project Leveraging the Spotify Web API</p>
+              <table className="t3" cellSpacing={0} cellPadding={0}>
+                <tbody>
+                  <tr>
+                    <td className="tr2 td6">
+                      <p className="p1 ft10">
+                        ekoPique | Developer | live |
+                        {' '}
+                        <a href="https://ekopique.herokuapp.com"><span className="ft22">ekoPique.herokuapp.com</span></a>
+                      </p>
+                    </td>
+                    <td className="tr2 td7"><p className="p10 ft3">2020</p></td>
+                  </tr>
+                  <tr>
+                    <td className="tr3 td6"><p className="p1 ft23">A Data Visualization Project Leveraging the Spotify Web API.</p></td>
+                    <td className="tr3 td7"><p className="p1 ft24">&nbsp;</p></td>
+                  </tr>
+                </tbody>
+              </table>
               <p className="p7 ft11">
                 <span className="ft11">●</span>
                 <span className="ft19">Learned how to implement and merge D3js with React to render graphs.</span>
@@ -168,12 +185,13 @@ const Resume = () => (
                 <span className="ft11">●</span>
                 <span className="ft19">Provided support and pair programming sessions with teammates in order to meet project goals.</span>
               </p>
-              <table className="t3" cellSpacing={0} cellPadding={0}>
+              <table className="t4" cellSpacing={0} cellPadding={0}>
                 <tbody>
                   <tr>
                     <td className="tr2 td6">
                       <p className="p1 ft10">
                         Responsive Map | Intern - Developer | live |
+                        {' '}
                         <a href="http://sichildrensmuseum.org/exhibits/"><span className="ft22">sichildrensmuseum.org/exhibits/</span></a>
                       </p>
                     </td>
@@ -238,15 +256,17 @@ const Resume = () => (
                     <td colSpan={2} className="tr5 td10">
                       <p className="p1 ft10">
                         NYC Web Development Fellowship,
+                        {' '}
                         <span className="ft23">FullStack Academy, (NERDS Stack)</span>
                       </p>
                     </td>
-                    <td colSpan={2} className="tr5 td13"><p className="p14 ft30">Expected Graduation July 2020</p></td>
+                    <td colSpan={2} className="tr5 td13"><p className="p14 ft3">Graduation August 2020</p></td>
                   </tr>
                   <tr>
                     <td colSpan={2} className="tr5 td10">
                       <p className="p1 ft10">
                         B.A. in Emerging Media Minor in Math,
+                        {' '}
                         <span className="ft23">Hunter College</span>
                       </p>
                     </td>
@@ -267,6 +287,7 @@ const Resume = () => (
                     <td colSpan={2} className="tr8 td10">
                       <p className="p1 ft10">
                         Magna Cum Laude,
+                        {' '}
                         <span className="ft23">Hunter College</span>
                       </p>
                     </td>
