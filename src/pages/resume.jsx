@@ -36,9 +36,6 @@ const Resume = () => (
                   {' '}
                   <span className="ft2">• </span>
                   347.465.8854
-                  {' '}
-                  <span className="ft2">• </span>
-                  lyle.aig@gmail.com
                 </p>
               </div>
             </div>
