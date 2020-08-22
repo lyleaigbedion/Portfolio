@@ -6,10 +6,10 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hi I'm Lyle-Anthony Aigbedion. I am a FullStack Software Engineer with a focus on the backend.
-  I have been self-taught for most of my career but, I recently graduated from FullStack Academy's Web Development Fellowship(WDF), and now in a pursuit of a job. I love technology and programming, solving problems with code faced by me and others.
+  paraOne: `Hi, I'm Lyle-Anthony Aigbedion. I am a FullStack Software Engineer with a focus on the backend.
+  I have been self-taught for most of my career; however, I recently graduated from FullStack Academy's Web Development Fellowship(WDF), and I am now in pursuit of a job. I love technology and programming, solving problems with code faced by me and others.
   `,
-  paraTwo: `Currently I work mostly with FullStack Javascript; Node, Express, React, Redux, and Databases(Postgres, MongoDB) or, the NERDS stack. I am currently interested in and working with more technologies and I hope youll take a look at some of those projects when they land here!
+  paraTwo: `Currently, I work mostly with FullStack Javascript; Node, Express, React, Redux, and Databases(Postgres, MongoDB) or, the NERDS stack. I am interested in and working with more technologies and I hope you'll take a look at some of those projects when they land here!
   `,
 };
 
@@ -36,7 +36,7 @@ const AboutMe = () => {
             img="location.png"
             height={60}
             alt="location image"
-            textH4="Born and bought up in"
+            textH4="Born and brought up in"
             textH3="Brooklyn, NY, United States"
           />
         </Col>
