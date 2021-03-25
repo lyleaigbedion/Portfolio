@@ -34,8 +34,6 @@ const Resume = () => (
                 <p className="p0 ft3">
                   Brooklyn, New York
                   {' '}
-                  <span className="ft2">• </span>
-                  347.465.8854
                 </p>
               </div>
             </div>
